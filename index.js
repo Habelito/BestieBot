@@ -9,4 +9,4 @@ client.on('message', message => {
 	console.log(message.content);
 });
 
-client.login('your-token-goes-here');
+client.login(config.token)
